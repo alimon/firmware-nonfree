@@ -1,3 +1,11 @@
+firmware-nonfree (20190114-1+linaro1) unstable; urgency=medium
+
+  * Downgrade ath10k firmware because causes HW reset on db820c:
+    - atheros:
+      + QCA6174 rev 3.0 firmware version WLAN.RM.4.4.1-00079-QCARMSWPZ-1
+
+ -- Aníbal Limón <anibal.limon@linaro.org>  Wed, 20 Feb 2019 16:31:18 -0600
+
 firmware-nonfree (20190114-1) unstable; urgency=medium
 
   [ Romain Perier ]
