@@ -1,3 +1,19 @@
+firmware-nonfree (20190114-2+linaro2) unstable; urgency=medium
+
+  * Fix Downgrade ath10k firmware because causes HW reset on db820c:
+    - atheros:
+      + QCA6174 rev 3.0 firmware version WLAN.RM.4.4.1-00079-QCARMSWPZ-1
+
+ -- Aníbal Limón <anibal.limon@linaro.org>  Wed, 13 Nov 2019 10:47:16 -0600
+
+firmware-nonfree (20190114-2+linaro1) unstable; urgency=medium
+
+  * Downgrade ath10k firmware because causes HW reset on db820c:
+    - atheros:
+      + QCA6174 rev 3.0 firmware version WLAN.RM.4.4.1-00079-QCARMSWPZ-1
+
+ -- Aníbal Limón <anibal.limon@linaro.org>  Mon, 11 Nov 2019 11:26:31 -0600 
+
 firmware-nonfree (20190114-2) buster; urgency=medium
 
   [ Ben Hutchings ]
@@ -19,6 +35,14 @@ firmware-nonfree (20190114-2) buster; urgency=medium
   * misc-nonfree: Add GV100 signed firmware (Closes: #928672)
 
  -- Ben Hutchings <ben@decadent.org.uk>  Fri, 23 Aug 2019 02:04:48 +0100
+
+firmware-nonfree (20190114-1+linaro1) unstable; urgency=medium
+
+  * Downgrade ath10k firmware because causes HW reset on db820c:
+    - atheros:
+      + QCA6174 rev 3.0 firmware version WLAN.RM.4.4.1-00079-QCARMSWPZ-1
+
+ -- Aníbal Limón <anibal.limon@linaro.org>  Wed, 20 Feb 2019 16:31:18 -0600
 
 firmware-nonfree (20190114-1) unstable; urgency=medium
 
